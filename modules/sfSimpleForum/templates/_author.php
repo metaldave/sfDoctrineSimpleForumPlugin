@@ -18,7 +18,7 @@
 
     if(sfConfig::get('app_sfSimpleForumPlugin_display_avatar', false)):
       $method = sfConfig::get('app_sfSimpleForumPlugin_avatar_method', 'getId');
-      include_partial('sfSimpleForum/avatar', array('src' => $sf_user->$method()));
+      include_partial('sfSimpleForum/avatar', array('src' => $author->$method()));
     endif;
 
     if(sfConfig::get('app_sfSimpleForumPlugin_display_rank', false)):
