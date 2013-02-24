@@ -1,0 +1,263 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext">
+    <body>
+      <trans-unit id="1">
+        <source>Latest messages from %forums%</source>
+        <target>Ultimi messaggi da %forums%</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Forums</source>
+        <target>Forums</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>New topic</source>
+        <target>Nuova discussione</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>[0]No topic yet|[1]One topic|(1,+Inf]%topics% topics</source>
+        <target>[0]Nessuna discussione|[1]Una discussione|(1,+Inf]%topics% discussioni</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>[0]No message|[1]One message|(1,+Inf]%posts% messages</source>
+        <target>[0]Nessun messaggio|[1]Un messaggio|(1,+Inf]%posts% messaggi</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>Forum</source>
+        <target>Forum</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>Topics</source>
+        <target>Discussioni</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>Messages</source>
+        <target>Messaggi</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>Last Message</source>
+        <target>Ultimo messaggio</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>1 day</source>
+        <target>1 giorno</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>%date% ago by %author%</source>
+        <target>%date% fa da %author%</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>Replies</source>
+        <target>Risposte</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>Views</source>
+        <target>Letture</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Posted</source>
+        <target>Publicato</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>view</source>
+        <target>vedi</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>Last reply</source>
+        <target>Ultima risposta</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>Topic</source>
+        <target>Discussione</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Post a reply</source>
+        <target>Rispondi</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Latest messages from %forums% » %forum% » %topic%</source>
+        <target>Ultimi messaggi da %forums% » %forum% » %topic%</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>[0]No message|[1]1 message, no reply|(1,+Inf]%posts% messages</source>
+        <target>[0]Nessun messaggio|[1]1 messaggio, più una risposta|(1,+Inf]%posts% risposte</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>[0,1]1 view|(1,+Inf]%views% views</source>
+        <target>[0,1]letto una volta|(1,+Inf]letto %views% volte</target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Messages by %user%</source>
+        <target>Messaggi di %user%</target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>Latest messages from %forums% by %username%</source>
+        <target>Ultimi messaggi da %forums% di %username%</target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>Topics by %user%</source>
+        <target>Discussioni di %user%</target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>Forums</source>
+        <target>Forums</target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>Create a new topic</source>
+        <target>Crea una nuova discussione</target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>Title</source>
+        <target>Titolo</target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>Body</source>
+        <target>Testo</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>Post</source>
+        <target>Messaggio</target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>Delete</source>
+        <target>Elimina</target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>Are you sure you want to delete this topic?</source>
+        <target>Sei sicuro di voler eliminare questa discussione?</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>Stick</source>
+        <target>Segna come "In evidenza"</target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>Lock</source>
+        <target>Blocca</target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>Are you sure you want to delete this post?</source>
+        <target>Sei sicuro di voler cancellare questo messaggio?</target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>Moderator</source>
+        <target>Moderatore</target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>Latest topics</source>
+        <target>Ultime discussioni</target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>Sticked topic</source>
+        <target>Discussione in evidenza</target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>Latest messages</source>
+        <target>Ultimi messaggi</target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>Next</source>
+        <target>Prossimo</target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>Previous</source>
+        <target>Precedente</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>[1]1 message|(1,+Inf] %1% messages</source>
+        <target>[1]1 messaggio|(1,+Inf] %1% messaggi</target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>Content</source>
+        <target>Contenuto</target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>Welcome on the forum</source>
+        <target>Benvenuto nel forum</target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>Recommand</source>
+        <target>Mi piace</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>Unrecommand</source>
+        <target>Non mi piace più</target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>Recommandations</source>
+        <target>Apprezzamenti</target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>Unstick</source>
+        <target>Segna come "non in evidenza"</target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>Unlock</source>
+        <target>Sblocca</target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>This topic was locked by a forum moderator. No reply can be added.</source>
+        <target>Questa discussione è stata bloccata dal moderatore, non puoi aggiungere messaggi.</target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>Report abuse</source>
+        <target>Segnala un abuso</target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>Are you sure you want to report this topic?</source>
+        <target>Sei sicuro di voler segnalare questa discussione come inappropriata?</target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>An abuse was reported for topic "%1%"</source>
+        <target>Un abuso è stato segnalato per la discussione "%1%"</target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source><![CDATA[An abuse was reported for topic "%1%".<br />Please, check the topic and delete it if necessary.<br /><a href="%2%">%2%</a>]]></source>
+        <target><![CDATA[Un abuso è stato segnalato per la discussione "%1%".<br />Controlla la discussione ed eliminala se necessario.<br /><a href="%2%">%2%</a>]]></target>      
+      </trans-unit>
+      <trans-unit id="52">
+        <source>There is no topic in this discussion yet. Perhaps you would like to %start%?</source>
+        <target>Non ci sono discussioni in questo forum, vuoi iniziare tu a %start%?</target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>start a new one</source>
+        <target>cominciane una nuova</target>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>Rank</source>
+        <target>Reputazione</target>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>Message</source>
+        <target>Messaggio</target>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>Validate</source>
+        <target>Invia</target>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>Title</source>
+        <target>Titolo</target>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>Sticked</source>
+        <target>In evidenza</target>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>Locked</source>
+        <target>Bloccato</target>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>You are about to create a new topic in the forum %forum_name%</source>
+        <target>Stai per creare una nuova discussione nel forum %forum_name%</target>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>Edit</source>
+        <target>Modifica</target>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>Move</source>
+        <target>Sposta</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
