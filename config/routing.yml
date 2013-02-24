@@ -87,6 +87,10 @@ forum_recommand:
   url: /forums/recommand-topic/:id
   param: { module: sfSimpleForum, action: recommand }
 
+forum_unrecommand:
+  url: /forums/unrecommand-topic/:id
+  param: { module: sfSimpleForum, action: unrecommand }
+
 forum_toggle_lock:
   url: /forums/toggle-lock/:id
   param: { module: sfSimpleForum, action: toggleLock }

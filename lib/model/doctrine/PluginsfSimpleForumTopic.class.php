@@ -18,6 +18,22 @@ abstract class PluginsfSimpleForumTopic extends BasesfSimpleForumTopic
     $this->save();
 
   }
+
+  public function unrecommand($user)
+  {
+    $recommandation = sfSimpleForumRecommandationLogTable::getInstance()->createQuery()
+        ->andWhere('topic_id = ?',$this->id)
+        ->andWhere('user_id = ?',$user->id)
+        ->fetchOne();
+    if ($recommandation)
+    {
+      $recommandation->delete();
+
+      $this->nb_recommandations--;
+      $this->save();
+    }
+  }
+
   public function reportAbuse($user)
   {
     $abuse = new sfSimpleForumAbuseLog();

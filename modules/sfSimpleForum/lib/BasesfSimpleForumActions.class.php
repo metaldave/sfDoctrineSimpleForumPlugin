@@ -549,6 +549,18 @@ class BasesfSimpleForumActions extends sfActions
     $this->redirect($this->getModuleName().'/topic?id='.$topic->getId().'&stripped_title='.$topic->getSlug());
   }
 
+  public function executeUnrecommand()
+  {
+    $topic = Doctrine::getTable('sfSimpleForumTopic')->find($this->getRequestParameter('id'));
+    $this->forward404Unless($topic);
+
+    $topic->unrecommand($this->getUser()->getGuardUser());
+    $topic->leaveUpdatedAtUnchanged();
+    $topic->save();
+
+    $this->redirect($this->getModuleName().'/topic?id='.$topic->getId().'&stripped_title='.$topic->getSlug());
+  }
+
   public function executeUpdatePost($request)
   {
     $this->forward404If( ! $request->getParameter('content') ||

@@ -38,13 +38,21 @@
       ) ?></li>
     <?php endif ?>
     <?php if ($sf_user->isAuthenticated()): ?>
-    <?php if (sfConfig::get('app_sfSimpleForumPlugin_display_recommandations', true) && !$topic->isRecommanded($sf_user->getGuardUser())): ?>
-         <li><?php echo link_to(
-           '<span>'. __('Recommand', null, 'sfSimpleForum').'</span>',
-          '@forum_recommand?id='.$topic->getId(),
-          array('class' => 'button')
-        ) ?></li>
-      <?php endif; ?>
+      <?php if (sfConfig::get('app_sfSimpleForumPlugin_display_recommandations', true)):?>
+        <?php if($topic->isRecommanded($sf_user->getGuardUser())): ?>
+          <li><?php echo link_to(
+            '<span>'. __('Unrecommand', null, 'sfSimpleForum').'</span>',
+              '@forum_unrecommand?id='.$topic->getId(),
+            array('class' => 'button')
+          ) ?></li>
+        <?php else:?>
+           <li><?php echo link_to(
+             '<span>'. __('Recommand', null, 'sfSimpleForum').'</span>',
+            '@forum_recommand?id='.$topic->getId(),
+            array('class' => 'button')
+          ) ?></li>
+        <?php endif; ?>
+      <?php endif ?>
 
       <?php if (sfConfig::get('app_sfSimpleForumPlugin_display_abuse', true) && !$topic->isAbuseReported($sf_user->getGuardUser())): ?>
          <li><?php echo link_to(
